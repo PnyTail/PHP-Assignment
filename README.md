@@ -2,7 +2,7 @@
 
 Nhóm: Sao  
 Thành viên:  
-| STT | Họ và Tên                | GitHub                          | Mã số  |
+| STT | Họ và Tên                | GitHub                          | Mã SV  |
 | --- | ------------------------ | ------------------------------- | ------ |
 | 1   | Hoàng Phương Nam         | [PnyTail](https://github.com/PnyTail) | PI00281 |
 | 2   | Vũ Tô Ni                 | [bnghnb](https://github.com/bnghnb)   | PI00063 |
