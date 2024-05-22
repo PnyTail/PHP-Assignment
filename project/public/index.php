@@ -19,6 +19,7 @@ $router->add('auth/login', function () {
 	$controller->login();
 });
 
+
 $router->add('auth/register', function () {
 	$controller = new AuthController();
 	$controller->register();
