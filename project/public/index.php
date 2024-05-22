@@ -10,7 +10,7 @@ require_once '../app/models/Product.php';
 $router = new Router();
 
 $router->add('', function () {
-	$controller = new ProductController();
+	
 	$controller->index();
 });
 
