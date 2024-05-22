@@ -22,7 +22,6 @@ function view($Name, $Data = [])
 function config($Key)
 {
     $Config = require __DIR__ . '/config.php';
-
     if (array_key_exists($Key, $Config)):
         return $Config[$Key];
     else:
@@ -64,4 +63,3 @@ function abort($Code = 404)
 
     exit();
 }
-

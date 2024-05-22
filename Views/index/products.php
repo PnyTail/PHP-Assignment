@@ -1,4 +1,4 @@
-<?php $Title = "Main" ?>
+<?php $Title = "Products" ?>
 <?php require_once __DIR__ . "/../layouts/header.php"; ?>
 
 <div class="container">
