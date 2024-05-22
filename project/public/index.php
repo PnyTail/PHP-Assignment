@@ -11,7 +11,7 @@ $router = new Router();
 
 $router->add('', function () {
 	
-	$controller->index();
+	
 });
 
 $router->add('auth/login', function () {
@@ -25,8 +25,8 @@ $router->add('auth/register', function () {
 });
 
 $router->add('product/index', function () {
-	$controller = new ProductController();
-	$controller->index();
+	
+	
 });
 
 
