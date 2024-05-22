@@ -28,6 +28,12 @@ $router->add('auth/register', function () {
 $router->add('product/index', function () {
 	
 	
+	$controller = new ProductController();
+	$controller->index();
+});
+$router->add('product/index', function () {
+	$controller = new ProductController();
+	$controller->index();
 });
 
 
