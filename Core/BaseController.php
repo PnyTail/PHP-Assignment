@@ -1,7 +1,7 @@
 <?php
 
 namespace Core;
-
+use Exception;
 class BaseController
 {
     protected $Database;

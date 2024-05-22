@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } elseif ($password !== $confirmPassword) {
         $message = "<div class='alert alert-danger'>Mật khẩu nhập lại không khớp</div>";
     } else {
-        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+        // $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
         $sql = "INSERT INTO TaiKhoan (Email, MatKhau) VALUES (?, ?)";
         $stmt = $conn->prepare($sql);
